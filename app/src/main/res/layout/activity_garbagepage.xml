@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A8FFFFFF"
+    tools:context=".garbagepage">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="-1dp"
+        android:layout_marginBottom="544dp"
+        android:background="#BFA2DDA5"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:text="GARBAGE QUERIES"
+        android:textColor="#0B0A0A"
+        android:textSize="35sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine4"
+        android:layout_width="408dp"
+        android:layout_height="136dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-16dp"
+        android:layout_marginRight="-16dp"
+        android:layout_marginBottom="369dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint='Enter the type of complaint'
+        android:inputType="textMultiLine"
+        android:textColor="#070707"
+        android:textColorHint="#0E0E0E"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/editTextTextPostalAddress4"
+        android:layout_width="409dp"
+        android:layout_height="151dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-19dp"
+        android:layout_marginRight="-19dp"
+        android:layout_marginBottom="173dp"
+        android:ems="10"
+        android:hint='"Enter the exact location"'
+        android:inputType="textPostalAddress"
+        android:text='Enter the exact location'
+        android:textColor="#101010"
+        android:textColorHint="#0B0A0A"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        android:layout_marginBottom="35dp"
+        android:text="SUBMIT"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="#BF418744" />
+
+</RelativeLayout>

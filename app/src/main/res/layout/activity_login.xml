@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".loginActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="341dp"
+        android:background="#DAEEFF"
+        android:fontFamily="@font/montserrat_medium"
+        android:gravity="center"
+        android:text="LOGIN PAGE"
+        android:textColor="#0C0C0C"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EmaileditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginBottom="256dp"
+        android:ems="10"
+        android:hint="."
+        android:inputType="textEmailAddress"
+        android:textColorHint="#090909"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="189dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="222dp"
+        android:layout_marginRight="222dp"
+        android:layout_marginBottom="257dp"
+        android:gravity="center"
+        android:text="E-Mail ID :"
+        android:textColor="#0E0E0E"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="182dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="229dp"
+        android:layout_marginRight="229dp"
+        android:layout_marginBottom="171dp"
+        android:gravity="center"
+        android:text="Password :"
+        android:textColor="#0B0A0A"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/passEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginBottom="172dp"
+        android:ems="10"
+        android:hint="."
+        android:inputType="textPassword"
+        android:textColorHint="#131313"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="121dp"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="139dp"
+        android:layout_marginRight="139dp"
+        android:layout_marginBottom="67dp"
+        android:text="LOGIN"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#2196F3" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="299dp"
+        android:layout_height="357dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginBottom="405dp"
+        app:srcCompat="@drawable/_310507" />
+
+</RelativeLayout>

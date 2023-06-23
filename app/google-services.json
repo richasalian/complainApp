@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "358283364156",
+    "project_id": "complaintapp-eb7e7",
+    "storage_bucket": "complaintapp-eb7e7.appspot.com",
+    "firebase_url": "https://query-logger-default-rtdb.firebaseio.com/"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358283364156:android:d9b96f4a7da7404e310039",
+        "android_client_info": {
+          "package_name": "com.example.complaintapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358283364156-2coeirl8mlob3l3sqdkkde6b3dj8c5i5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ3s3EVSq4b3n7-FnVl6HzWhtLFgVi_E8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358283364156-2coeirl8mlob3l3sqdkkde6b3dj8c5i5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
