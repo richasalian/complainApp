@@ -24,12 +24,13 @@ import java.util.Objects;
 public class Signupapplication extends AppCompatActivity {
     private FirebaseAuth auth;
     private static final String TAG="RegisterActivity";
+    Button registerBtn;
     private EditText registerName,registerPassword,registerEmail,registerPhoneNumber;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signupapplication);
-        Button registerBtn = findViewById(R.id.registerbtn);
+        registerBtn = findViewById(R.id.registerbtn);
         registerEmail=findViewById(R.id.userEmail);
         registerPassword=findViewById(R.id.userPassword);
         registerName=findViewById(R.id.userName);
