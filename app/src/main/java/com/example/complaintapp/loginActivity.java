@@ -52,7 +52,7 @@ public class loginActivity extends AppCompatActivity {
         authProfile.signInWithEmailAndPassword(email, password).addOnCompleteListener(task -> {
             if(task.isSuccessful()){
                 Toast.makeText(this, "Logged In", Toast.LENGTH_SHORT).show();
-                Intent intent=new Intent(this, MainActivity.class);
+                Intent intent=new Intent(this, loginsuccessActivity.class);
                 startActivity(intent);
                 finish();
             }else {
