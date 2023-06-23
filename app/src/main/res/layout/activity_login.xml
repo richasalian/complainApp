@@ -6,20 +6,24 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     tools:context=".loginActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="299dp"
+            android:layout_height="357dp"
+            app:srcCompat="@drawable/_310507" />
     <TextView
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="63dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="0dp"
-        android:layout_marginRight="0dp"
-        android:layout_marginBottom="341dp"
         android:background="#DAEEFF"
         android:fontFamily="@font/montserrat_medium"
         android:gravity="center"
+        android:layout_marginTop="20dp"
         android:text="LOGIN PAGE"
         android:textColor="#0C0C0C"
         android:textSize="40sp"
@@ -29,28 +33,14 @@
         android:id="@+id/EmaileditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="26dp"
-        android:layout_marginRight="26dp"
-        android:layout_marginBottom="256dp"
         android:ems="10"
-        android:hint="."
+        android:hint="Email"
         android:inputType="textEmailAddress"
-        android:textColorHint="#090909"
         tools:ignore="TouchTargetSizeCheck" />
-
     <TextView
         android:id="@+id/textView5"
         android:layout_width="189dp"
         android:layout_height="45dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="222dp"
-        android:layout_marginRight="222dp"
-        android:layout_marginBottom="257dp"
         android:gravity="center"
         android:text="E-Mail ID :"
         android:textColor="#0E0E0E"
@@ -61,12 +51,7 @@
         android:id="@+id/textView6"
         android:layout_width="182dp"
         android:layout_height="50dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="229dp"
-        android:layout_marginRight="229dp"
-        android:layout_marginBottom="171dp"
+
         android:gravity="center"
         android:text="Password :"
         android:textColor="#0B0A0A"
@@ -77,16 +62,8 @@
         android:id="@+id/passEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="26dp"
-        android:layout_marginRight="26dp"
-        android:layout_marginBottom="172dp"
-        android:ems="10"
-        android:hint="."
+        android:hint="Password"
         android:inputType="textPassword"
-        android:textColorHint="#131313"
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
@@ -104,16 +81,7 @@
         android:textStyle="bold"
         app:backgroundTint="#2196F3" />
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="299dp"
-        android:layout_height="357dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="54dp"
-        android:layout_marginRight="54dp"
-        android:layout_marginBottom="405dp"
-        app:srcCompat="@drawable/_310507" />
+
+    </LinearLayout>
 
 </RelativeLayout>
